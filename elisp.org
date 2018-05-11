@@ -43,7 +43,7 @@ A teacher wants to change all the student grades from decimal to percentages
 * Loop function
 ** Code
 #+BEGIN_SRC elisp :results output
-(setq lst '("gazelle" "giraffe" "lion" "tiger"))
+(setq lst '(gazelle giraffe lion tiger))
 (while lst
    (print (car lst))
    (setq lst (cdr lst)))
@@ -51,11 +51,11 @@ A teacher wants to change all the student grades from decimal to percentages
 
 #+RESULTS:
 : 
-: "gazelle"
+: gazelle
 : 
-: "giraffe"
+: giraffe
 : 
-: "lion"
+: lion
 : 
-: "tiger"
+: tiger
 
