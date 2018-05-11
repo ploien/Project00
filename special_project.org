@@ -9,19 +9,113 @@ NOTE: You must get this approved by Brother Benning.
 * Explanations
 ** Jonathon Dawson
 
-To me he seems to be saying we need to be more dynamic thinkers. Anyone can figure out a question that
-has a defined answer, like the ones in textbooks. We need to learn how to solve for something that isn't
-directly given to you. Sometimes have the problem is figuring out what the question is.
+To me he seems to be saying we need to be more dynamic thinkers. Anyone can
+figure out a question that has a defined answer, like the ones in textbooks. We
+need to learn how to solve for something that isn't directly given to you.
+Sometimes have the problem is figuring out what the question is.
 
 * Special Project
+1. Week 02 teach.org puzzle of the hats
+#+begin_note
+  Scientists, philosophers, mathematicians, detectives, logicians, and
+  physicians all face logical problems. How do they go about solving them? For
+  insights, try your own hand at a challenge, the /problem of the hats/.
 
-3. Given the following information about a computer program, find the mistake in the program.
+  Once you are given the facts of the case, be aware of how you attack the
+  problem, how you take it apart, what you place emphasis on, your avenues of
+  pursuit, and plausible conjectures. The answer requires \ldquo{}seeing\rdquo a key move.
 
-a. There is an undeclared variable or there is a syntax error in the first five lines.
-b. If there is a syntax error in the first five lines, then there is a missing semicolon or a variable name is misspelled.
+  Here is the challenge: A teacher comes to class with a box and shows the
+  contents of the box to the students. It contains three white hats, two red
+  hats, and nothing else. There happen to be only three students in this class,
+  and the teacher tells them that he is going to blindfold each one and then
+  place one of the five hats on each of their heads. The remaining two hats will
+  then be placed back in the box, so no one can see them once the blindfolds are
+  removed. If anyone can tell what color hat they have on their heads, then the
+  teacher will give that student an A. But the students are not allowed to
+  guess: They must be able to /prove/ they have that color hat.
+
+  The teacher removes the blindfold from the first student, who is now able to
+  see the color of the hats on the other two students --- but not his own. The
+  first student looks carefully at the other two hats, thinks silently for a
+  while, and says he does not know the color of his hat. The teacher then
+  removes the blindfold from the second student. He, too, looks at the hats on
+  the other two students, thinks for a while, and says he does not know the
+  color of his hat. (As before, this student does /not/ say aloud the color of
+  the hats he sees on the other two students\rsquo{} heads.) Now, just as the teacher
+  is about to remove the blindfold from the third student, she says that she
+  knows exactly the color of the hat on her head. In fact, she doesn\rsquo{}t even need
+  to see the hats of the other two students to know this.
+
+  Can you see how she did it? No information is being held back, no tricks are
+  being played, and no word games are used. All the information necessary to
+  solve the problem is contained in its description. There are three
+  possibilities for you to consider. Which is correct?
+
+  1. She cannot possibly know what color hat she has on her head.
+  2. She has a red hat and can prove it.
+  3. She has a white hat and can prove it.
+#+end_note
+
+The answer is number 3, she has a white hat and can prove it. The first student
+looks at the hats of the other two students and says he doesn't know the color
+of his hat. That means that he would have seen one of two options: either the
+other two students were both wearing white hats, or one had a white had and the
+other had a red hat. The second student, knowing this, comes to the conclusion
+that if the third student is wearing a red hat, he must be wearing a white hat.
+If the third student is wearing a white hat, he wouldn't know whether his own
+hat was white or red. Therefore, the third student must be wearing a white hat.
+
+
+
+
+
+2. You are on an Island where there are only two types of individuals besides
+   yourself, Knaves and Knights. You have the following encounters with natives.
+   a. Two natives A and B address you as follows:
+        A says: Both of us are Knights.
+        B says: A is a knave.
+      What are A and B?
+        A is a knave, and B is a knight.
+
+   b. Another two natives C and D approach you but only C speaks.
+        C says: Both of us are knaves.
+      What are C and D?
+        C is a knave. D is a knight.
+
+   c. You then encounter natives E and F.
+        E says: F is a knave.
+        F says: E is a knave.
+      How many knaves are there?
+        Of natives E and F, one is a knave.
+
+   d. Finally you meet a group of six natives, U,V,W,X,Y,and Z, who speak to you
+   as follows:
+        U says: None of us is a knight.
+        V says: At least three of us are knights.
+        W says: At most three of us are knights.
+        X says: Exactly five of us are knights.
+        Y says: Exactly two of us are knights.
+        Z says: Exactly one of us is a Knight.
+      Which are Knights and which are knaves?
+        Knights: W, Y
+        Knaves: U, V, X, Z
+
+
+
+
+
+3. Given the following information about a computer program, find the mistake in
+   the program.
+
+a. There is an undeclared variable or there is a syntax error in the first five
+lines. 
+b. If there is a syntax error in the first five lines, then there is a
+missing semicolon or a variable name is misspelled.
 c. There is not a missing semicolon.
 d. There is not a misspelled variable name.
 
-part c and d say there is not a missing semicolon and there is not a misspelled variable name.
-in part b, since neither c or d are true, then there is not a syntax error on the first five lines.
-Because of that and part a, the part that is true is that there is an undeclared variable.
+part c and d say there is not a missing semicolon and there is not a misspelled
+variable name. in part b, since neither c or d are true, then there is not a
+syntax error on the first five lines. Because of that and part a, the part that
+is true is that there is an undeclared variable.
