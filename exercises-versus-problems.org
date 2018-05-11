@@ -84,3 +84,19 @@
 
    A problem is a problem because we needed more information. When you
    balance your problem, you get more information.
+
+#+BEGIN_QUOTE
+The difference between a and excersice and a problem can best be demonstrated
+if you know what a excersice is and what a problem is.
+
+An Excersice is a question that is generally more easy to find the answer too.
+An excersice is used to help a person practice something that they know. The reason
+for an excersice is to help a person get better at doing something.
+
+A problem is like a more complex question. A problem will take a lot more time to figure
+out the answer too. The reason for a problem is to help a person think about something in
+a different way, or from a different perspective. 
+
+So the difference between a problem and excersice is time and complexity. 
+--- Tyler Christensen, /From by brain/
+#+END_QUOTE
