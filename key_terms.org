@@ -41,21 +41,73 @@ d. Why do I care about Superman again, he's in the D.C. universe ... so dark and
 **************** KEY TERMS ********************
 
 * Contrapositive
-When we switch the hypothesis and conclusion from a conditional statement and we negate both. It is in the form if not q, then not p
+When we switch the hypothesis and conclusion from a conditional statement and we negate both. It is in
+the form if not q, then not p
 
-Example: We have the phrase -It is raining so I need an umbrella- if we put this phrase in its contrapositive way it will be:
-If I dont need an umbrella, then it is not raining
+EXAMPLE: We have the phrase -It is raining so I need an umbrella- if we put this phrase in its
+contrapositive way it will be: If I dont need an umbrella, then it is not raining
 
+NON-TRIVIAL QUESTION: 
+  What is the logical way to put Contrapositive?
+  a) p -> q
+  b) ~q <- ~p
+  c) ~q -> ~p
+  c) ~p -> ~p
 
 * Converse
 
+A converse statement is when in the conditional statement, we change the hypothesis and the 
+conclusion. Is in the form of if q, then p. 
+
+EXAMPLE: If we have the phrase -It is raining so I need an umbrella-. In the Converse way It will be:
+If I need and umbrella, then it rains
+
+NON-TRIVIAL QUESTION:
+  What is the logical way to put converse?
+  a) q -> p
+  b) p -> q
+  c) ~p -> q
+  d) p -> ~q
+
 * inverse
+
+Its when we negate the hypothesis and the conclusion but not changing the order of them.
+Is in the form if not p, then not q
+
+EXAMPLE: If we have the phrase -It is raining so I need an umbrella-. The inverse way it will be:
+It is not raining then I dont need an umbrella
+
+NON-TRIVIAL QUESTION
+  What is the logical way to put inverse?
+  a) q -> p
+  b) p -> q
+  c) ~q -> ~p
+  d) ~p -> ~q
 
 * R: real numbers
 
+COMING SOON...
+
 * Z: integers
 
+Integer comes from the Latin word integer that means -whole-. An integer number is the one can be
+written without a fractional component but as a whole. The set of integer numbers are composed of
+zero, the natural numbers (positive integers) and their additive inverse (negative integers).
+The Integer numbers are represented by the letter Z which it is the Zahlen symbol. Integer numbers
+are part of the Real numbers
+
+Some EXAMPLES of integer numbers are: 7, 0, 196, -201
+
+NON-TRIVIAL QUESTION
+  Which set of number are Integers?
+  a) -1, 0, 3.2, 1/2
+  b) 9/4 2, 19, 7
+  c) 36, 81, 30, 79
+  d) 5, 6.1, 4.3, 6.9
+
 * Q: rational numbers
+
+
 
 * predicate
 
