@@ -85,6 +85,7 @@
    A problem is a problem because we needed more information. When you
    balance your problem, you get more information.
 
+** Our thoughts
 #+BEGIN_QUOTE
 The difference between a and excersice and a problem can best be demonstrated
 if you know what a excersice is and what a problem is.
