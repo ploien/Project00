@@ -6,4 +6,22 @@
 
 NOTE: You must get this approved by Brother Benning.
 
+* Explanations
+** Jonathon Dawson
+
+To me he seems to be saying we need to be more dynamic thinkers. Anyone can figure out a question that
+has a defined answer, like the ones in textbooks. We need to learn how to solve for something that isn't
+directly given to you. Sometimes have the problem is figuring out what the question is.
+
 * Special Project
+
+3. Given the following information about a computer program, find the mistake in the program.
+
+a. There is an undeclared variable or there is a syntax error in the first five lines.
+b. If there is a syntax error in the first five lines, then there is a missing semicolon or a variable name is misspelled.
+c. There is not a missing semicolon.
+d. There is not a misspelled variable name.
+
+part c and d say there is not a missing semicolon and there is not a misspelled variable name.
+in part b, since neither c or d are true, then there is not a syntax error on the first five lines.
+Because of that and part a, the part that is true is that there is an undeclared variable.
