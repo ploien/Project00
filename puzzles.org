@@ -18,8 +18,24 @@ with only 2 weights!
   and the sum of the rest of the digits is 16? Write elisp code with and without
   loops to verify your answer.
 *** Rephrase
+loop throught the numbers 1 to 1 million, and see if there is only one 1 and all the other number add up to 16
 *** Approach
+have 6 ints, when there is only one 1 add up the other numbers and see if that equals 16
 *** Solution
+#+BEGIN_SRC elisp :results output
+(setq ones 0)
+(setq tens 0)
+(setq huns 0)
+(setq thos 0)
+(setq tenthos 0)
+(setq hunthos 0)
+(while ((not (= tens 9)) and ((not = ones 9)))
+   (print (tens ones))
+   (setq ones (1+ ones))
+   (if (= ones 10)
+      ((setq ones 0)
+      (setq tens (1+ tens)))))
+#+END_SRC
 *** Proof
 ** TODO TME
   Sequences can be non-numeric as well. What is the pattern for this sequence?
