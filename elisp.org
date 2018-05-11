@@ -9,18 +9,53 @@ NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
 * Factorial Code
 ** Code
 #+BEGIN_SRC emacs-lisp
-(+ 2 3 4)
+(defun factorial (num)
+   (if (> 1 num)
+      1
+      (* num (factorial (1- num)))))
 #+END_SRC
+
+#+RESULTS:
+: factorial
+
+#+BEGIN_SRC emacs-lisp
+(factorial 6)
+#+END_SRC
+
+#+RESULTS:
+: 720
+
 ** Test cases
 ** How big a number will make your computer freeze?
 * "Real-World" function with mapcar
 ** What is mapcar
+mapcar function is used to apply something accross every element in a list
 ** Code
+A teacher wants to change all the student grades from decimal to percentages
 #+BEGIN_SRC emacs-lisp
-
+(setq grades '(0.93 0.83 0.70 0.10 0.95 0.65))
+(mapcar '(lambda (arg) (* arg 100)) grades)
 #+END_SRC
+
+#+RESULTS:
+| 93.0 | 83.0 | 70.0 | 10.0 | 95.0 | 65.0 |
+
 * Loop function
 ** Code
-#+BEGIN_SRC emacs-lisp
-
+#+BEGIN_SRC elisp :results output
+(setq lst '("gazelle" "giraffe" "lion" "tiger"))
+(while lst
+   (print (car lst))
+   (setq lst (cdr lst)))
 #+END_SRC
+
+#+RESULTS:
+: 
+: "gazelle"
+: 
+: "giraffe"
+: 
+: "lion"
+: 
+: "tiger"
+

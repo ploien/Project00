@@ -14,6 +14,9 @@
   (let ((a 1) (b 2) (c 3)) (+ a b c))
 #+END_SRC
 
+#+RESULTS:
+: 6
+
 #+BEGIN_SRC emacs-lisp
   (let ((a 1) (b 2) (c 3)) (+ a b c d))
 #+END_SRC
@@ -21,6 +24,9 @@
 #+BEGIN_SRC emacs-lisp
   (let ((a 1) (b 2) (c 3)) [+ a b c d])
 #+END_SRC
+
+#+RESULTS:
+: [+ a b c d]
 
 #+BEGIN_SRC emacs-lisp
   (let ((a 1) (b 2) (c 3) (+ 4)) (+ a b c +))
@@ -36,6 +42,26 @@
 #+END_SRC
 
 ***  Your answer goes here.
+**** (let ((a 1) (b 2) (c 3)) (+ a b c))
+Prediction: 6
+Result:     6 
+
+**** (let ((a 1) (b 2) (c 3)) (+ a b c d))
+Prediction: error
+Result:     error
+
+**** (let ((a 1) (b 2) (c 3)) [+ a b c d])
+Prediction:
+Result:
+
+**** (makunbound 'a) (let ((a 1) (b 2) (c 3) (d (+ a 4))) (+ a b c d))
+Prediction:
+Result:
+
+**** (let* ((a 1) (b 2) (c 3) (d (+ a 4))) (+ a b c d))
+Prediction:
+Result:
+
 ** TODO TEJ
   A function-as-association between elements of a domain and elements of a
   codomain, for \ldquo{}small\rdquo domains and codomains, inspired so-called \ldquo{}association
