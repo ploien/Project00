@@ -136,3 +136,8 @@ part c and d say there is not a missing semicolon and there is not a misspelled
 variable name. in part b, since neither c or d are true, then there is not a
 syntax error on the first five lines. Because of that and part a, the part that
 is true is that there is an undeclared variable.
+
+
+
+5. You can make a bias coin unbias by flipping the coin behind your back. Then after flipping
+a number of times present your hand (not the coin) and ask someone else to pick heads or tail.
