@@ -37,92 +37,100 @@ c. He levitates, he's an alien "HEELLLLLOOOO!"
 
 d. Why do I care about Superman again, he's in the D.C. universe ... so dark and terrible movies!
 
-Contrapositive
 
-Converse
+**************** KEY TERMS ********************
 
-inverse
+* Contrapositive
+When we switch the hypothesis and conclusion from a conditional statement and we negate both. It is in the form if not q, then not p
 
-R: real numbers
+Example: We have the phrase -It is raining so I need an umbrella- if we put this phrase in its contrapositive way it will be:
+If I dont need an umbrella, then it is not raining
 
-Z: integers
 
-Q: rational numbers
+* Converse
 
-predicate
+* inverse
 
-Domain
+* R: real numbers
 
-CoDomain
+* Z: integers
 
-quantifier
+* Q: rational numbers
 
-antecedent
+* predicate
 
-consequent
+* Domain
 
-Set
+* CoDomain
 
-Fallacy
+* quantifier
 
-biconditional
+* antecedent
 
-sufficient condition
+* consequent
 
-necessary condition
+* Set
 
-~p
+* Fallacy
 
-p ^ q
+* biconditional
 
-p V q
+* sufficient condition
 
-p XOR q
+* necessary condition
 
-p == q
+* ~p
 
-p -> q
+* p ^ q
 
-p <--> q
+* p V q
 
-Three dots in a triangle
+* p XOR q
 
-upside down A
+* p == q
 
-Backwards E
+* p -> q
 
-union
+* p <--> q
 
-intersection
+* Three dots in a triangle
 
-Commutative laws
+* upside down A
 
-associative laws
+* Backwards E
 
-distributive laws
+* union
 
-identity laws
+* intersection
 
-negation laws
+* Commutative laws
 
-double negative law
+* associative laws
 
-idempotent laws
+* distributive laws
 
-universal bound laws
+* identity laws
 
-De morgan's laws
+* negation laws
 
-absorption laws
+* double negative law
 
-negations of t and c
+* idempotent laws
 
-vacuously true
+* universal bound laws
 
-Modus Ponens
+* De morgan's laws
 
-Modus Tollens
+* absorption laws
 
-Elimination: valid argument form
+* negations of t and c
 
-Transitivity: Valid Argument form
+* vacuously true
+
+* Modus Ponens
+
+* Modus Tollens
+
+* Elimination: valid argument form
+
+* Transitivity: Valid Argument form
