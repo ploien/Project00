@@ -141,4 +141,7 @@ is true is that there is an undeclared variable.
 
 
 
+5. You can make a bias coin unbias by flipping the coin behind your back. Then
+   after flipping a number of times present your hand (not the coin) and ask
+   someone else to pick heads or tail.
 
