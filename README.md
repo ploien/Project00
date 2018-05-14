@@ -14,7 +14,11 @@ Peter Oien:
 
 Astrid Vargas:
 
-Justin Parry:
+Justin Parry: I worked a little on the puzzles and got some traction on the
+second, but then prioritized our special project and helped Jonathon with the
+Beast 2.0. I feel like the special project was left too open-ended and not
+specific. Also the workload looks innocent and appropriate at first but the time
+required to do a little is much more than expected for this class. 
 
 Tyler Christensen:
 
