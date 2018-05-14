@@ -46,7 +46,16 @@ will benefit us in the long run.
 
 ** Justin Parry
 #+begin_note
-
+Problem solving is the harder, less beaten path. It is much more involved and
+requires more of the individual. But an individual that develops his or her
+problem solving skills grows as much as that problem required of them. The more
+time spent solving problems brings more and more "levels" of problem solving
+skills. The hardest thing about problem solving is the inevitable setbacks we
+will all experience, but learning to overcome failure is the secret that has led
+to many successes. These are due to realizing that there should be fear of
+failing but of failing to continue trying, and learning from that failure.
+Exercises are only reinforcements of knowledge that is gained from
+problem-solving.
 #+end_note 
 
 * Special Project
