@@ -44,6 +44,11 @@ strive to spend more time thinking, we can become better problem solvers, which
 will benefit us in the long run.
 #+END_QUOTE
 
+** Justin Parry
+#+begin_note
+
+#+end_note 
+
 * Special Project
 1. Week 02 teach.org puzzle of the hats
 #+begin_note
