@@ -550,6 +550,22 @@ NON-TRIVIAL QUESTION
 
 * Modus Tollens
 
+is a valid argument form and a rule of inference. It is an application
+of the general truth that if a statement is true, then so is its
+contra-positive.The inference rule modus tollens validates the
+inference from P implies Q and the contradictory of Q to the
+contradictory of P. The Modus Tollens forms states: P->Q,~Q/~P.
+
+EXPLANATION: 
+1. The argument has two premises
+2. The first Premise is a conditional or "if-then" statement, for example that if P then Q
+3. The second premise is that it is not the case that Q
+4. From these two premiese, it can be logically concluded that it is not the case that P
+
+NON-TRIVIAL QUESTION
+
+  
+
 * Elimination: valid argument form
 
 * Transitivity: Valid Argument form
