@@ -24,7 +24,10 @@ Justin Parry:
 
 Tyler Christensen:
 
-Jonathan Dawson:
+Jonathan Dawson: I mainly have just been working on the Beast project.
+I didn't really look at any of the other stuff because the Beast took up
+all of my time... and we still didn't finish it. I even took the apporach
+of trying to brute-force it, but that still didn't work.
 
 
 
