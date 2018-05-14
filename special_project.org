@@ -31,6 +31,11 @@ So the difference between a problem and excersice is time and complexity.
 --- Tyler Christensen, /From by brain/
 #+END_QUOTE
 
+** Justin Parry
+#+begin_note
+
+#+end_note 
+
 * Special Project
 1. Week 02 teach.org puzzle of the hats
 #+begin_note
