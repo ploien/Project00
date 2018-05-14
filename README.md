@@ -12,7 +12,13 @@ we divvied up the work and worked together really well.
 
 Peter Oien:
 
-Astrid Vargas:
+Astrid Vargas: Honestly I felt that this assignment had a lot of
+work. It was fun to do some stuff like the excesises or the puzzles
+but the key terms (personally) I felt that was a lot of terms and some
+of them were really hard to find. It was sometimes annoying and really
+frustrating to look for something and not be able to find it and to
+have to read different terms to come to a good definition. If we are
+doing key terms again, It shouldn't be this many
 
 Justin Parry: I worked a little on the puzzles and got some traction on the
 second, but then prioritized our special project and helped Jonathon with the
@@ -22,7 +28,10 @@ required to do a little is much more than expected for this class.
 
 Tyler Christensen:
 
-Jonathan Dawson:
+Jonathan Dawson: I mainly have just been working on the Beast project.
+I didn't really look at any of the other stuff because the Beast took up
+all of my time... and we still didn't finish it. I even took the apporach
+of trying to brute-force it, but that still didn't work.
 
 
 
