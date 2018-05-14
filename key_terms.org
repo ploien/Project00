@@ -107,43 +107,410 @@ NON-TRIVIAL QUESTION
 
 * Q: rational numbers
 
+A rational number is a number that can be expressed as a fraction
+between two integers like x/y (with a nonzero denominator). Rational
+numbers are represented with the letter Q which mean
+quotient. Rational numbers are part of the real numbers.
 
+EXAMPLES OF RATIONAL NUMBERS: 4/5, -1/6, 9/16
+
+NON-TRIVIL QUESTION
+
+  Which serte of numbers are Rational?
+  a) -1, 7.8, 9/4, 0
+  b) 5/6 -7/9, 3/2, 1/2
+  c) 2.3, 4.5, 6.7, 8.9
+  d) -10, 20, -30/2, 40/3
 
 * predicate
 
+A predicate is an expression of one or more variables defined on some
+specific domain. A predicate with variables can be made a proposition
+by either assigning a value to the variable or by quantifying the
+variable.
+
+EXAMPLE: Let M(x, y) denote "x is married to y"
+
+NON-TRIVIAL QUESTION:
+
+  Which of this statements is a predicate?
+  a) Let E(x, y) denote "x = y"
+  b) P(a,b)  denotes a + b = 0
+  c) Man is mortal
+  d) Some people are dishonest
+
 * Domain
+
+Domain is mostly used to describe a set of input values consisting of
+only certain numbers in an interval in which a function is defined. In
+other words, it is what can go into a function.
+
+EXAMPLE: Example: a function f(x) that it is defined for real values x
+E R the function has a domain in R.
+
+NON-TRIVIAL QUESTION
+
+  From these set {(2, –3), (4, 6), (3, –1), (6, 6), (2, 3)},
+  which one is an example of a domain?
+  a) {–3, –1, 3, 6}
+  b) { 2, -3, 4, 6}
+  c) {6, 2, 3, -1}
+  d) {2, 3, 4, 6}
 
 * CoDomain
 
+The Codomain is the set of values that could possibly come out. The
+Codomain is actually part of the definition of the function. In other
+words, it is what may possibly come out of a function.
+
+EXAMPLE: We have a set A = {1, 2, 3, 4} and a function f(x)=2x+1. The
+codomain of the set and function is: B = {1, 2, 3, 4, 5, 6, 7, 8,
+9, 10)
+
+NON-TRIVIAL QUESTION
+
+
+
 * quantifier
+
+The variable of predicates is quantified by quantifiers. There are two
+types of quantifier in predicate logic − Universal Quantifier and
+Existential Quantifier. Universal quantifiers states that the
+statements within its scope are true for every value of the specific
+variable. It is denoted by the symbol ∀. The existential quantifier
+states that the statements within its scope are true for some values
+of the specific variable. It is denoted by the symbol ∃
+
+EXAMPLE for Universal quantifier: “Sushi is delicious” can be
+transformed into the preposition ∀xP(x) where P(x) is the predicate
+and which denotes x is delicious and the universe of discourse is all
+the types of sushi.
+
+EXAMPLE for Existential quantifier: “Some people don’t like sushi” can
+be transformed into the propositional form ∃xP(x) where P(x) is the
+predicate which denotes x is sushi and the universe of discourse is
+some people
+
+  From this sentence: "My boss is great" Which kind of quantifier is it?
+  a) Existencial quantifier
+  b) Universal quantifier.
+  c) Both a and b
+  d) Non of the above (plot twist!!)
 
 * antecedent
 
+It is the first half of a hypothetical proposition. It is also known
+as the premise or hypothesis. When we have the preposition p → q, p
+will be our antecedent
+
+EXAMPLE: From the phrase “If today is Friday, then I don’t have
+homework”, our antecedent from the preposition is “If today is Friday”
+
+  From this sentence: "Tomorrow is saturday, then I have to work the whole day"
+  what is the antecedent?
+  a) I have to work the whole day
+  c) Tomorrow is saturday, then I have to work the whole day
+  c) Then I have to work the whole day
+  d) None of the above
+
 * consequent
+
+A consequent is the second half of a hypothetical proposition. In the
+standard form of such a proposition, it is the part that follows
+"then". It is also known as apodosis or conclusion. When we have the
+preposition p → q, q will be our antecedent
+
+EXAMPLE: From the phrase “If today is Friday, then I don’t have
+homework”, the consequent from the preposition is “I don’t have
+homework”.
+
+NON-TRIVIAL QUETSION
+
+  From the sentence: "I have to much homework to do, then I won't sleep tonight. What is
+  the consequent?
+  a) I have to much homework to do
+  b) I won't be sleep tonight
+  c) I have to much homework to do, then I won't sleep tonight
+  d) None of the above
 
 * Set
 
+An unordered collection of different elements. A set can be written
+explicitly by listing its elements using set bracket. If the order of
+the elements is changed or any element of a set is repeated, it does
+not make any changes in the set.
+
+EXAMPLE: A set of integer numbers (Z), a set of students, a set of cards.
+
+NON-TRIVIAL QUESTION
+
+  Which of of these is NOT a set?
+  a) A deck of cards
+  b) A group of students
+  c) A paper
+  d) A parking lot
+
 * Fallacy
+
+A fallacy is an incorrect result arrived at by apparently correct,
+though actually specious reasoning. Fallacies are commonly divided
+into "formal" and "informal". A formal fallacy can be expressed neatly
+in a standard system of logic, such as propositional logic (a branch
+of logic that deals with propositions). while an informal fallacy
+originates in an error in reasoning other than an improper logical
+form. There is also a special case is a mathematical fallacy, an
+intentionally invalid mathematical proof
+
+EXAMPLE FORMAL FALLACY: Some of your key evidence is missing,
+incomplete, or even faked! That proves I'm right!
+
+EXAMPLE OF INFORMAL FALLACY: Smoking isn’t going to hurt me my grandpa
+smoked three packs a day for sixty-five years and wasn’t sick a day in
+his life. He lived to be ninety.
+
+NON-TRIVIAL QUESTION
+
+  What kind of Fallaxy is the following sentence: "My friend is the one that stole
+  my laptop, he wasn't in the room and he didn't open my backpack so he did it
+  a) Formal Fallacy
+  b) Informal Fallacy
+  c) None of the above
+  d) All of the above
 
 * biconditional
 
+In logic and mathematics, the logical biconditional is the logical
+connective of two statements asserting – P and only if Q – Where P is
+an antecedent and Q is a consequent. The operator that we use for
+biconditional condition is <->. The truth table for this condition is:
+
+P | Q | P <-> Q
+---------------
+1 | 1 |   1
+1 | 0 |   0
+0 | 1 |   0
+0 | 0 |   1
+
+EXAMPLE: I'll buy you a new wallet if you need one
+
+NON-TRIVIAL QUESTION
+  Which of these sentences IS NOT biconditional
+  a) A polygon is a triangle ifit has 3 sides
+  b) I am breathing if and only if I am alive
+  c) Any person is a male
+  d) You passed the exam if and only if you scored 65% or higher.
+
 * sufficient condition
+
+A sufficient condition is an implicational relationship between
+statements. A sufficient condition is a condition or set of conditions
+that will produce the event. The logical relation is expressed as - if
+P, then Q – or P -> Q.
+
+EXAMPLE: - John is a king - implies that John is male. So, knowing
+that it is true that John is a king is sufficient to know that he is a
+male.
+
+NON-TRIVIAL QUESTION
+
+  Which sentence is a sufficient condition?
+  a) A microscope is needed to see viruses.
+  b) The Walkman is in good working order.
+  c) The earphones are plugged in.
+  d) You operate the controls correctly
 
 * necessary condition
 
+The assertion that Q is necessary for P. This can also be written as
+"P cannot be true unless Q is true" or "if Q is false, then P is
+false". This is notated that P implies to Q. The logical relation
+between them is expressed as "if P, then Q" and denoted P -> Q.
+
+EXAMPLE: For the whole numbers greater than two, being odd is
+necessary to being prime, since two is the only whole number that is
+both even and prime.
+
+NON-TRIVIAL QUESTION
+
+  Which of these sentences is a necessary condition?
+  a) You could travel by car
+  b) Getting a final grade of C
+  c) Having the flu virus and being sick
+  d) Earning 120 credits for earning a degree
+
 * ~p
+
+In logic, negation, also called the logical complement, is an
+operation that takes a proposition P to another proposition "not P",
+written ~P. It may be applied as an operation on notions,
+propositions, truth values, or semantic values more generally. In
+classical logic, negation is normally identified with the truth
+function that takes truth to falsity and vice versa. the truth table looks like:
+
+P | ~P
+------
+1 | 0
+0 | 1
+
+EXAMPLE: If P is "I like to swim", ~P will be "I don't like to swim"
+
+NON-TRIVIAL QUESTION
+
+  From the sentence P = "I don't speak French". What is ~p?
+  a) I don't speak French
+  b) I am french
+  c) I speak French
+  d) None of the above
 
 * p ^ q
 
+This is a representation of a basic logic gate that implements logical
+conjunction. It behaves according to the truth table. A high output
+(1) results only if all the inputs to the and gate are high. If noon
+or not all inputs to the ANd gate are high, a low output results. This
+is the truth table:
+
+P | Q | P ^ Q
+-------------
+0 | 0 |   0
+0 | 1 |   0
+1 | 0 |   0
+1 | 1 |   1
+
+EXAMPLE: The next sentence is and example of P ^ Q: "If I have a car
+and it has gas then I can go to Idaho Falls"
+
+NON-TRIVIAL QUESTION:
+
+  If P = 0 and Q = 1, what is P ^ Q
+  a) 0
+  b) 1
+  c) None of the above (Plot twist)
+
 * p V q
+
+The or operator is an operation on two logical values, typically the
+values of two propositions, that produces a value of true if at least
+one of its operands is true. This is how the truth table looks like:
+
+P | Q | P v Q
+-------------
+0 | 0 |   0
+0 | 1 |   1
+1 | 0 |   1
+1 | 1 |   1
+
+EXAMPLE: if P = Today is monday and Q = I don't have to work, P ^ Q
+will be: Today is Monday or I don't have to work
+
+NON-TRIVIAL QUESTION
+
+  If P = 0 and Q = 1, what is P v Q?
+  a) 0
+  b) 1
+  c) None of the above (Plot twist)
+
 
 * p XOR q
 
+Is a logical operator that gives a true (1 or HIGH) output when the
+number of true inputs is odd. An XOR gate implements an exclusive or;
+that is, a true output results if one, and only one, of the inputs to
+the gate is true. If both inputs are false (0/LOW) or both are true, a
+false output results. The truth table looks like:
+
+P | Q | P XOR Q
+-------------
+0 | 0 |   0
+0 | 1 |   1
+1 | 0 |   1
+1 | 1 |   0
+
+EXAMPLE: If P = I have to visit my parents and Q = I am going to the
+beach, P XOR Q will be: Either I have to visit my parents or I am
+going to the beach
+
+NON-TRIVIAL QUESTION
+
+  If P = 1 and Q = 1, What is P XOR Q?
+
+  a) 0
+  b) 1
+  c) None of the above
+
 * p == q
+
+P == q or Logical equality is an operation on two logical values,
+typically the values of two propositions, that produces a value of
+true if and only if both operands are false or both operands are
+true. The truth table looks like:
+
+P | Q | P == Q
+-------------
+0 | 0 |   1
+0 | 1 |   0
+1 | 0 |   0
+1 | 1 |   1
+
+EXAMPLE: If P = 2 and Q = 2 then P == Q (They are equal)
+
+NON-TRIVIAL QUESTION
+
+  If P = 0 and Q = 0, what is P == Q?
+  a) 0
+  b) 1
+  c) None of the above
 
 * p -> q
 
+Also known as Material condition, is a logical connective that is
+often symbolized by a forward arrow "→". The material conditional is
+used to form statements of the form p → q (termed a conditional
+statement) which is read as "if p then q". The truth table associated
+with the material conditional p→q is identical to that of ¬p∨q. It is
+as follows:
+
+P | Q | P → Q
+-------------
+0 | 0 |   1
+0 | 1 |   0
+1 | 0 |   1
+1 | 1 |   1
+
+EXAMPLE: If P = "I am cooking" and Q "I am going to the gym", P → Q
+is: I am cooking then, I am going to the gym
+
+NON-TRIVIAL QUESTIONS
+
+  If P = 1 and Q = 0, what is P → Q?
+  a) 0
+  b) 1
+  c) None of the above
+
 * p <--> q
+
+This is the same as P = Q so this is the same as Logical
+Equality. This is also equivalent as the XNOR logic gate. Logical
+equality is a logical operator that corresponds to equality in Boolean
+algebra and to the logical biconditional in propositional calculus. It
+gives the functional value true if both functional arguments have the
+same logical value, and false if they are different. The truth table is:
+
+P | Q | P <-> Q
+---------------
+0 | 0 |    1
+0 | 1 |    0
+1 | 0 |    0
+1 | 1 |    1
+
+EXAMPLE: If P = 5 and Q = 5 then, they are equal
+
+NON-TRIVIAL QUESTION
+
+  If P = 1 and Q = 0, what is P <-> Q?
+  a) 0
+  b) 1
+  c) None of the above
 
 * Three dots in a triangle
 
