@@ -14,21 +14,34 @@ figure out a question that has a defined answer, like the ones in textbooks. We
 need to learn how to solve for something that isn't directly given to you.
 Sometimes have the problem is figuring out what the question is.
 #+END_QUOTE
+
 ** Tyler Christensen
 #+BEGIN_QUOTE
-The difference between a and excersice and a problem can best be demonstrated
-if you know what a excersice is and what a problem is.
+The difference between a and exercise and a problem can best be demonstrated if
+you know what a exercise is and what a problem is.
 
-An Excersice is a question that is generally more easy to find the answer too.
-An excersice is used to help a person practice something that they know. The reason
-for an excersice is to help a person get better at doing something.
+An Exercise is a question that is generally more easy to find the answer to. An
+exercise is used to help a person practice something that they know. The reason
+for an exercise is to help a person get better at doing something.
 
-A problem is like a more complex question. A problem will take a lot more time to figure
-out the answer too. The reason for a problem is to help a person think about something in
-a different way, or from a different perspective. 
+A problem is like a more complex question. A problem will take a lot more time
+to figure out the answer too. The reason for a problem is to help a person think
+about something in a different way, or from a different perspective.
 
-So the difference between a problem and excersice is time and complexity. 
---- Tyler Christensen, /From by brain/
+So the difference between a problem and exercise is time and complexity.
+---Tyler Christensen, /From by brain/
+#+END_QUOTE
+
+** Oriana Wai
+#+BEGIN_QUOTE
+The document exercises-versus-problems.org primarily talks about the difference
+between exercises and problems, and how spending more time problem solving is
+the best for us in the long run. It begins by explaining the difference between
+exercises and problems. Exercises are questions to which you already know the
+solution (or how to answer the question), while problems take a good deal more
+thinking because you don't know how to solve them. When we embrace failure and
+strive to spend more time thinking, we can become better problem solvers, which
+will benefit us in the long run.
 #+END_QUOTE
 
 * Special Project
@@ -74,6 +87,7 @@ So the difference between a problem and excersice is time and complexity.
   3. She has a white hat and can prove it.
 #+end_note
 
+#+begin_info 
 The answer is number 3, she has a white hat and can prove it. The first student
 looks at the hats of the other two students and says he doesn't know the color
 of his hat. That means that he would have seen one of two options: either the
@@ -82,7 +96,7 @@ other had a red hat. The second student, knowing this, comes to the conclusion
 that if the third student is wearing a red hat, he must be wearing a white hat.
 If the third student is wearing a white hat, he wouldn't know whether his own
 hat was white or red. Therefore, the third student must be wearing a white hat.
-
+#+end_info
 
 
 
