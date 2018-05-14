@@ -12,7 +12,13 @@ we divvied up the work and worked together really well.
 
 Peter Oien:
 
-Astrid Vargas:
+Astrid Vargas: Honestly I felt that this assignment had a lot of
+work. It was fun to do some stuff like the excesises or the puzzles
+but the key terms (personally) I felt that was a lot of terms and some
+of them were really hard to find. It was sometimes annoying and really
+frustrating to look for something and not be able to find it and to
+have to read different terms to come to a good definition. If we are
+doing key terms again, It shouldn't be this many
 
 Justin Parry:
 
