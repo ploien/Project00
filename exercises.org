@@ -32,6 +32,9 @@
   (let ((a 1) (b 2) (c 3) (+ 4)) (+ a b c +))
 #+END_SRC
 
+#+RESULTS:
+: 10
+
 #+BEGIN_SRC emacs-lisp
   (makunbound 'a)
   (let ((a 1) (b 2) (c 3) (d (+ a 4))) (+ a b c d))
@@ -41,26 +44,33 @@
   (let* ((a 1) (b 2) (c 3) (d (+ a 4))) (+ a b c d))
 #+END_SRC
 
-***  Your answer goes here.
+#+RESULTS:
+: 11
+
+#+begin_info
 **** (let ((a 1) (b 2) (c 3)) (+ a b c))
-Prediction: 6
-Result:     6 
+     Prediction: 6
+     Result:     6 
 
 **** (let ((a 1) (b 2) (c 3)) (+ a b c d))
-Prediction: error
-Result:     error
+     Prediction: error
+     Result:     error
 
 **** (let ((a 1) (b 2) (c 3)) [+ a b c d])
-Prediction:
-Result:
+     Prediction: [+ a b c d]
+     Result: [+ a b c d]
+**** (let ((a 1) (b 2) (c 3) (+ 4)) (+ a b c +))
+     Prediction: 10
+     Result: 10
 
 **** (makunbound 'a) (let ((a 1) (b 2) (c 3) (d (+ a 4))) (+ a b c d))
-Prediction:
-Result:
+     Prediction: 11
+     Result: "Symbol's value as variable is void: a" 
 
 **** (let* ((a 1) (b 2) (c 3) (d (+ a 4))) (+ a b c d))
-Prediction:
-Result:
+     Prediction: 11
+     Result: 11 
+#+end_info
 
 ** TODO TEJ
   A function-as-association between elements of a domain and elements of a
@@ -96,7 +106,28 @@ Result:
 
   There are several variations of =assoc=. Find and give examples of using them.
 
-*** Your answer goes here.
+#+begin_info
+  The =rassoc= function takes a value in the list and returns the key of that
+  list. It returns nil if the value is not found.
+#+BEGIN_SRC emacs-lisp
+     (setq x
+           '(("red" . 1)
+             ("green" . 2)
+             ("blue" . 3)))
+     (rassoc 2 x)
+#+END_SRC
+
+  The =assq= function is very similar to the assoc function, but it does not use
+  =equal=, which makes it faster, and as a result, more commonly used than the
+  =assoc= function.
+
+  The =alist-get= function is similar to the assq function, but returns just the
+  value rather than the entire association for the key in the alist.
+
+  The =rassq= function returns the first key that matches with the value in an
+  alist and returns nil if the value is not found in the alist.
+#+end_info
+
 ** TODO WFK
   In the function-as-map context, here is another interpretation:
 
@@ -153,6 +184,12 @@ Result:
     (maphash (lambda (key value) (princ (format "%s : %s\n" key value))) mymap))
 #+END_SRC
 
+#+RESULTS:
+: (nil nil nil)
+: one : red
+: two : blue
+: three : green
+
 : ("red" "blue" "green")
 : one : red
 : two : blue
@@ -160,8 +197,12 @@ Result:
 
   What happens if you omit the =:test 'equal= parameters to the
   =make-hash-table= call?
-  
-*** Your answer goes here.
+
+#+begin_info
+  If you omit the =:test 'equal= parameters to the =make-hash-table= call, it
+  returns the list as (nil nil nil) rather than ("red" "blue" "green").
+#+end_info
+
 ** TODO TER
   This exercise explores /looping/ versus /mapping/.
 
@@ -196,8 +237,11 @@ Result:
 #+END_SRC
 
   Explain how this version of =morphify= works.
-  
-*** Your answer goes here.
+
+#+begin_info
+Your answer goes here.
+#+end_info
+
 ** TODO TGE
   Note the difference if -13 is used instead of 13 below:
 #+BEGIN_SRC emacs-lisp :results silent
@@ -216,12 +260,18 @@ Result:
 
   Is the hard way correct?
   
-*** Your answer goes here.
+#+begin_info
+  Your answer goes here.
+#+end_info
+
 ** TODO THP
   Graph the floor and ceiling functions f(x) = \lfloor{}x\rfloor and f(x) = \lceil{}x\rceil for real
   number values of x in the interval [-5.0 .. 5.0].
-  
-*** Your answer goes here.
+
+#+begin_info
+  Your answer goes here.
+#+end_info
+
 ** TODO WKM
   Which of these statements about floor and ceiling are correct, for any real
   number $x$ and any integers $n$ and $m$?
@@ -238,18 +288,30 @@ Result:
   10. $\lceil{}\frac{n + m}{2}\rceil + \lceil{}\frac{n - m + 1}{2}\rceil = n$ (for any $m$, not just $m =
       0$ as in statement 8).
   
-*** Your answer goes here.
+#+begin_info
+  Your answer goes here.
+#+end_info
+
 ** TODO TIW
 
   Define the function \ldquo{}round to nearest integer\rdquo using the floor and ceiling
   functions, together with the \ldquo{}Iverson bracket\rdquo function. (A number whose
   fractional part is less than one-half should be rounded down, otherwise up.)
 
-***  Your answer goes here.
+#+begin_info
+  Your answer goes here.
+#+end_info
+
 ** TODO TKG
   Explore the inverse of =assoc= via the functions =rassoc= and associates.
 
-***  Your answer goes here.
+#+begin_info 
+  The =assoc= function takes the first element in a list, its "key", and returns
+  the rest of the items in the list. Functions such as =rassoc= take an element
+  from the list and return the "key". These would be considered the inverse of
+  the =assoc= function.
+#+end_info
+
 ** TODO WOV
   Identify the formula or rule that generates the terms of each sequence:
   1. =[7 14 21 28 35 42 49 56 63 70 ...]=
@@ -263,9 +325,22 @@ Result:
   9. =[6 18 54 162 486 1458 4374 13122 39366 118098 ...]=
   10. =[2 3 5 7 11 13 17 19 23 29 ...]=
 
-***  Your answer goes here.
+#+begin_info 
+  1) Add 7 to the previous term (or 7*n starting with n = 1)
+  2) Add 4 to the previous term
+  3) Add 1, then 2, then 3, then 4...
+  4) Counting in binary
+  5) Fibonacci sequence (each number is the sum of the previous 2)
+  6) 3n+1, then n/2, then 3n+1, then n/2...
+  7) 
+  8) Multiply previous term by 2
+  9) Multiply previous term by 3
+ 10) Prime numbers
+#+end_info
+
 ** TODO WQW
-  Classify the following lisp functions according as each is or is not a predicate:
+  Classify the following lisp functions according as each is or is not a
+  predicate:
   | Predicate? | Yes or No? |
   |------------+------------|
   | =list=     |            |
@@ -278,4 +353,16 @@ Result:
   | =evenp=    |            |
   | =oddp=     |            |
 
-***  Your answer goes here. (Replicate the above table.)
+#+begin_info
+  | Predicate? | Yes or No? |
+  |------------+------------|
+  | =list=     |     No     |
+  | =listp=    |    Yes     |
+  | =integerp= |    Yes     |
+  | =vector=   |     No     |
+  | =vectorp=  |    Yes     |
+  | =symbolp=  |    Yes     |
+  | =zerop=    |    Yes     |
+  | =evenp=    |    Yes     |
+  | =oddp=     |    Yes     |
+#+end_info
