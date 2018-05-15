@@ -42,8 +42,16 @@ have 6 ints, when there is only one 1 add up the other numbers and see if that e
 : [m b w y me be wi yo met bew ith you meta bewi thyo uati metap bewit hyoua tirel]
   How long can it continue?
 *** Rephrase
+    This sequence isnot based on numbers, but letters. What is the sequence and
+    how many more times until the sequence is over?
 *** Approach
+    We noticed the title of the textbook in this puzzle and I went from there to find any patterns
 *** Solution
+    Metaphors be with you a tireless work on play on words
+    Metaphors bewithyou atireless workonpla
+    Metaphorsbe withyouatir elessworkon playonwords
+    
+    11 times it can continue.
 *** Proof
 
 ** TODO WRA
