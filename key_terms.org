@@ -513,26 +513,168 @@ NON-TRIVIAL QUESTION
   c) None of the above
 
 * Three dots in a triangle
+  Three dots in a tringle means that the following statement is the conlcusion of a 
+  preceding syllogism. A syllogism is a set of two or more related statements such as a -> b, b -> c, so a -> c.
+  Three dots and a triangle would replace the word "so".  
+  In other words, the conclusion of the first two statements, is the third statement.
+
+  EXAMPLE:
+  I am human. 
+  All humans have belly buttons. 
+  Conclusion: I have a belly-button.
+  (Three dots in a triangle would replace the word "Conclusion")
+
+  TEST QUESTION
+  A. All ambulances are life-savers.
+  B. No ambulances are bumper cars.
+
+     a. No life savers are bumper cars.
+     b. No bumper cars are life savers.
+     c. Some life savers are no bumper cars.
+     d. None of the above. 
+
+    Source: https://www.fibonicci.com/logical-reasoning/syllogisms-test/hard/
 
 * upside down A
+  An upside down A (∀) represents a Universal Quantifier. This mean that something is true for all members a a given set.
+
+  EXAMPLE:
+  Statement: ∀ x birds(x). 
+  This statement means that every member (x), of the set is a bird. So for (albatross, seagull, eagle, robin),
+  this would be true. If the set were (robin, eagle, bear, volkswagen), the statement is false.
+
+  TEST QUESTION:
+  Express the following quantification in english:
+  ∀ x (Even(x) ∧ ¬Odd(x)).
+  
+   
+
 
 * Backwards E
+  A backwards E (∃) represents an Existential Quantifier, which means that a something is true for
+  at least one member of a set. 
+
+  EXAMPLE: 
+  Statement: ∃ x Volkswagen(x) 
+  If set x = {Jetta, F150, Camry), the statement is true, since the Jetta is a Volkswagen. If set x = {Malibu, F150, Camry}
+  the statement is false, since none of those cars are Volkswagen's.
+
+  TEST QUESTION: 
+  Express the following english statement in terms of quantifiers and
+  logical connectives.
+  
+  "At least one student in the class is older than 50".
+  
+  
+ 
 
 * union
+  A union of two set is anything that is either in one set or in
+  the other.
+
+  EXAMPLE: 
+  Set a = {yellow, purple, red}
+  Set b = {penguin, duck, goose}
+  Union (a,b) = {yellow, purple, red, penguin, duck, goose}
+  
+  Anything that is contained in set a or b is in the union of sets a & b.
+
+  TEST QUESTION:
+  What is the union of Set A {mammals, avians, insects) and Set B (amphibians, reptiles, fish)?
+  
 
 * intersection
+  An intersection is anything that is shared by two or more sets. 
+
+  EXAMPLE:
+  The intersection of Set a = {1,2,3,4,5,6}, and Set b = {5,6,7,8,9} would be 
+  a ∩ b = {5,6}, since 5 and 6 are the two numbers shared by both sets.
+
+  TEST QUESTION:
+  Set a = {1, 3, 5, 7, 9}
+  set b = {2, 4, 5, 6, 7, 9, 11}
+  set c = {2, 3, 5, 11, 13, 14, 18}
+
+  Determine the intersection of a, b, and not c.
+  
+  
 
 * Commutative laws
+  The commutative law applies in three situation; conjunctions, disjunctions, and biconditional statements.
+  This means that the order of the statements can be reversed and the statement is still true.
+
+  EXAMPLE:
+  q v p <=> p v q
+  a ∧ b <=> b ∧ a
+  (f <=> g) <=> (f <=> g)
+
+  TEST QUESTION:
+  Use a truth table to verify the following commutative law:
+  a v b <=> b v a
+  
+  
+   
 
 * associative laws
+  When you have more than to statements, you must have parentheses to define the order of 
+  operations of the statement. The associative laws state that where you put the parentheses does
+  not affect the operation.
+
+  EXAMPLE
+  (p∨q)∨r ≡ p∨(q∨r)
+  (p∧q)∧ r≡ p∧(q∧r)
+  
+  TEST QUESTION: 
+  Use a truth table to verify the following associative law.
+  (p∨q)∨r ≡ p∨(q∨r)
+  
 
 * distributive laws
+  When there are three statemnts, such as (p V q) ∧ r, or (p ∧ q) V r, these can be changed 
+  using the distributive laws.
+
+  EXAMPLE:
+  p∧(q∨r)≡(p∧q)∨(p∧r)
+  p∨(q∧r)≡(p∨q)∧(p∨r)
+
+  TEST QUESTION:
+  Use a truth table to verify this distributive law
+  p∨(q∧r)≡(p∨q)∧(p∨r)
+  
+  
 
 * identity laws
+  
 
 * negation laws
+  The negation of a statement is the opposite of that statement. 
+
+  
+  EXAMPLE:
+  The negation of "All dogs go to Heaven" would be
+  "No dogs go to Heaven." or "Not all dogs go to heaven".
+  
+  TEST QUESTION:
+  State the negation of the following sentences.
+
+  1. Albert doesn't not want to not go to the store.
+  2. Suzy doesn't want to eat her broccoli.
+  3. Some birds swim.
+  
 
 * double negative law
+  If a statement is true, it is not the case that it is not true, or if a statement is false, 
+  it is not the case that it is not false.
+
+  EXAMPLE:
+  If some people like running, it is not the case that no one like running.
+  or
+  If p = q, !p = !q.
+
+  TEST QUESTION:
+  T or F: The following is a double negation.
+
+  "If all alligators bite, it is not true that some alligators bite."
 
 * idempotent laws
 
