@@ -16,6 +16,10 @@ of a time problem, but also felt as though I didn't entirely understand what
 some of the questions were asking for or how to solve them.
 
 Peter Oien:
+This assignment was very robust. It definitley relied on the particpants being up
+to date on the class. Overall I didn't feel like it was too overwhelming but it was 
+definitely a lot to chew. It was hard to come up with a project idea. Specific examples
+might be good to help teams come up with project ideas.
 
 Astrid Vargas: Honestly I felt that this assignment had a lot of
 work. It was fun to do some stuff like the excesises or the puzzles
