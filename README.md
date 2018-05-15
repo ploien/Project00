@@ -5,10 +5,15 @@ Oriana Wai, Peter Oien, Astrid Vargas, Justin Parry, Tyler Christensen,
 Jonathan Dawson
 
 ** Summaries and Opinions **
+
 Oriana Wai: I mostly worked on the special project problems and exercises. I
 felt that the puzzles you came up with in your special project were creative and
 engaging. I actually had a lot of fun with the ones I did. I think, as a group,
-we divvied up the work and worked together really well.
+we divvied up the work and worked together really well. I didn't realize how
+many exercises there were, and didn't have help trying to complete them, because
+everyone else was working on other aspects of the project. So I had a little bit
+of a time problem, but also felt as though I didn't entirely understand what
+some of the questions were asking for or how to solve them.
 
 Peter Oien:
 
